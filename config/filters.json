@@ -1,0 +1,22 @@
+{
+  "archive_rules": [
+    { "from": "*@newsletter.*", "reason": "newsletter" },
+    { "from": "*@noreply.*", "reason": "automated" },
+    { "subject": "*unsubscribe*", "reason": "marketing" }
+  ],
+  "important_senders": [
+    "sarah@example.com"
+  ],
+  "work_hours": {
+    "start": "09:00",
+    "end": "18:00",
+    "timezone": "America/Mexico_City"
+  },
+  "time_blocking": {
+    "deep_work_label": "Deep Work:",
+    "admin_label": "Admin:",
+    "default_duration_minutes": 60,
+    "min_block_minutes": 30,
+    "buffer_between_blocks": 15
+  }
+}
