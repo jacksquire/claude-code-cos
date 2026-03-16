@@ -23,13 +23,10 @@ Run in parallel:
 
 ```bash
 # Email stats
-gws gmail list --unread --limit 50
+gws gmail +triage
 
-# Today's calendar
-gws calendar today
-
-# This week's calendar (for context)
-gws calendar week
+# Calendar agenda
+gws calendar +agenda
 ```
 
 ### Step 2: Analyze Email

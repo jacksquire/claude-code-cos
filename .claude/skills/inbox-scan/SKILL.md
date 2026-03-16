@@ -27,7 +27,7 @@ Triage unread emails into actionable tasks, reference notes, or archive. Inspire
 ### Step 1: Fetch Unread Emails
 
 ```bash
-gws gmail list --unread --limit 20
+gws gmail +triage
 ```
 
 Parse output to get list of emails with:

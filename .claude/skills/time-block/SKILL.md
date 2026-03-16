@@ -30,7 +30,7 @@ Or I can read from your daily note's Big 3.
 ### Step 2: Check Calendar Availability
 
 ```bash
-gws calendar today
+gws calendar +agenda
 ```
 
 Identify available blocks:
@@ -62,9 +62,9 @@ Confirm? (y/n/adjust)
 ### Step 4: Create Calendar Events
 
 ```bash
-gws calendar add "Deep Work: Write proposal" --time "10:00" --duration "2h"
-gws calendar add "Deep Work: Review PRs" --time "14:00" --duration "1h"
-gws calendar add "Admin: Email follow-ups" --time "16:30" --duration "30m"
+gws calendar +insert --summary "Deep Work: Write proposal" --start "2026-03-16T10:00:00" --end "2026-03-16T12:00:00"
+gws calendar +insert --summary "Deep Work: Review PRs" --start "2026-03-16T14:00:00" --end "2026-03-16T15:00:00"
+gws calendar +insert --summary "Admin: Email follow-ups" --start "2026-03-16T16:30:00" --end "2026-03-16T17:00:00"
 ```
 
 ### Step 5: Confirm
